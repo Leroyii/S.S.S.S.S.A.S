@@ -1,0 +1,11 @@
+table.players {width:100%;border-spacing:10px;}
+table.players td {width:33%;}
+
+table.score {width:100%;page-break-before: always;}
+table.score td {width:16%;}
+table.score td:nth-child(1) {width:11%;}
+table.score td:nth-child(2) {width:11%;}
+table.score td:nth-child(3) {width:20%;}
+table.score td:nth-child(6) {width:26%;}
+
+td {border:1px solid black;}
