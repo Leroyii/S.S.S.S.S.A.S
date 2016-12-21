@@ -124,7 +124,7 @@ function run(){
     for(let i in window.speakers){
       let n = i;
       n ++;
-      table.push("Spy " + n + "<p>Say " + window.speakers[i][0][0] + " to " + window.speakers[i][0][1] + "<br>" + "Say " + window.speakers[i][1][0] + " to " + window.speakers[i][1][1] + "<br>" + "Say " + window.speakers[i][2][0] + " to spy " + window.speakers[i][2][1] + "</p>");
+      table.push("Spy " + n + "<p>Say " + window.speakers[i][0][0] + " to spy " + window.speakers[i][0][1] + "<br>" + "Say " + window.speakers[i][1][0] + " to spy " + window.speakers[i][1][1] + "<br>" + "Say " + window.speakers[i][2][0] + " to spy " + window.speakers[i][2][1] + "</p>");
     }
     var length = table.length;
     var row, cell = null;
