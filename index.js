@@ -110,6 +110,7 @@ function organizeHearers(numberPlayers){
 function run(){
   var htmlPlayerTable = document.getElementById("players");
   var htmlScoreTable = document.getElementById("score");
+  var htmlListTable = document.getElementById("list");
   var players = document.getElementById("playerCount").value;
   
   if(!(players > 13 || players < 4)){
@@ -155,6 +156,14 @@ function run(){
         row.insertCell(5);
       }
     }
+    
+    htmlListTable.innerHTML = "<tr><th>Number</th><th>Name</th></tr>";
+    for(let i = 1; i <= players; i++){
+      row = htmlListTable.insertRow(htmlListTable.rows.length);
+      row.insertCell(0).innerHTML = i;
+      row.insertCell(1);
+    }
+    
     print();
   }
 }
