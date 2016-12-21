@@ -1,11 +1,16 @@
 table.players {width:100%;border-spacing:10px;}
 table.players td {width:33%;}
 
-table.score {width:100%;page-break-before: always;}
+div {page-break-before:always}
+
+table.score {width:75%;float:left;}
 table.score td {width:16%;}
-table.score td:nth-child(1) {width:11%;}
-table.score td:nth-child(2) {width:11%;}
+table.score td:nth-child(1) {width:10%;}
+table.score td:nth-child(2) {width:10%;}
 table.score td:nth-child(3) {width:20%;}
-table.score td:nth-child(6) {width:26%;}
+table.score td:nth-child(6) {width:28%;}
+
+table.list {width:20%;float:right;}
 
 td {border:1px solid black;}
+empty {opacity:0;}
