@@ -1,7 +1,9 @@
 table.players {width:100%;border-spacing:10px;}
 table.players td {width:33%;}
 
-table.score {width:75%;page-break-before: always;float:left;}
+div {page-break-before:always}
+
+table.score {width:75%;float:left;}
 table.score td {width:16%;}
 table.score td:nth-child(1) {width:10%;}
 table.score td:nth-child(2) {width:10%;}
